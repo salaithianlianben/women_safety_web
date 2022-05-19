@@ -1,5 +1,4 @@
 body {
-  margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
     sans-serif;
@@ -10,4 +9,89 @@ body {
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+.full-width{
+  width: 90%;
+}
+
+.full-height{
+  height: 100vh;
+}
+
+.bg-color{
+  background-color: #F5F2F2;
+}
+
+.primary-color{
+  background-color: #D96868;
+}
+
+.bd-color{
+  border-color: #E8E5E5;
+}
+
+
+.ui.left.visible.sidebar, .ui.right.visible.sidebar{
+  box-shadow: none !important;
+}
+
+.menu-item-navigation{
+  padding:10px;
+  border-radius: 30px;
+  margin-left: 5px;
+  margin-right: 5px;
+  font-size: 16px;
+}
+
+.ui.vertical.menu{
+  width: auto !important;
+  background-color: #F5F2F2 !important;
+}
+
+.menu-item-navigation:hover{
+  background-color: #F1E0E0;
+}
+
+.active-route{
+  background-color:  #F1E0E0;
+}
+
+.ui.wide.left.sidebar, .ui.wide.right.sidebar{
+  width: 300px !important;
+}
+
+.ui.secondary.pointing.menu{
+  border-bottom: 0px !important;
+}
+
+.user-list-items{
+  border-radius: 10px;
+  text-align: left;
+  align-items: center;
+  align-self: center;
+  padding-top:20px;
+  padding-bottom: 20px;
+  margin-top:5px
+}
+
+.user-list-items-odd{
+  background-color: #f6f5f5;
+  border-radius: 10px;
+  text-align: left;
+  align-items: center;
+  align-self: center;
+  padding-top:20px;
+  padding-bottom: 20px;
+  margin-top:5px
+}
+
+.ui.visible.wide.left.sidebar~.fixed, .ui.visible.wide.left.sidebar~.pusher{
+  transform: translate3d(320px,0,0) !important;
+}
+
+.user-list-image{
+  width: 40px;
+  border-radius: 40px;
+  height: 40px;
 }
